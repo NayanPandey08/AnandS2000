@@ -43,7 +43,7 @@ $(document).ready(function name(params) {
                 if(displayedCount < target) {
                     counter.innerText = Math.ceil(displayedCount + step);
                     //console.log('yes');
-                    console.log(target);
+                    //console.log(target);
                     setTimeout(countIt,1);
                 } else {
                     counter.innerText = target;
